@@ -1,8 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard app
 
-> Description the project.
+### Purpose of project
+
+- Create a new game with the name of your choice by using the API.
+- Make sure that you saved the ID of your game that will be returned by API.
+- Implement the "Refresh" button that will get all scores for a game created by you from the API (receiving data from the API and parsing the JSON).
+- Implement the form "Submit" button that will save a score for a game created by you (sending data to the API).
+- Use arrow functions instead of the function keyword.
+- Use async and await JavaScript features to consume the API
 
 
 ## Built With
@@ -11,6 +18,7 @@
 - HTML5
 - CSS3
 - Webpack
+- API
 
 ## Live Demo
 
@@ -18,9 +26,15 @@
 
 ## How to use
 
-1. Clone the project using "git clone https://github.com/MahdiAghaali/Awesome-books"
-2. Run the projec on a server (example: [live server on vscode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
+In order to run this project locally enter the following commands in a command line tool
 
+```
+git clone https://github.com/MahdiAghaali/Leaderboard/
+cd Leaderboard
+npm install
+npm run dev
+npm run start
+```
 ## Authors
 
 👤 **Mahdi Aghaali**
