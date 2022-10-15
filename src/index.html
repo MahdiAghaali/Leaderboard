@@ -13,36 +13,33 @@
     <section>
         <div class="inlineContainer">
             <h2>Recent Scores</h2>
-            <button type="button">Refresh</button>
+            <button type="button" id="refresh">Refresh</button>
         </div>
         <table>
-            <tr>
-                <td>test </td>
-                <td> 100</td>
-            </tr>
-            <tr>
-                <td>test </td>
-                <td> 100</td>
-            </tr>
-            <tr>
-                <td>test </td>
-                <td> 100</td>
-            </tr>
-            <tr>
-                <td>test </td>
-                <td> 100</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Score
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="scores">
+            </tbody>
         </table>
     </section>
-    <form>
+    <form id="form">
         <h2>Add your Score</h2>
         <label>
-            <input type="text" placeholder="Your name">
+            <input type="text" id='nameInput' placeholder="Your name">
         </label>
         <label>
-            <input type="text" placeholder="Your score">
+            <input type="text" id="scoreInput" placeholder="Your score">
         </label>
-        <button type="button">Submit</button>
+        <span id="message"></span>
+        <button type="button" id="submit">Submit</button>
     </form>
 </body>
 
